@@ -1,0 +1,30 @@
+body
+{
+    text-align:center;
+}
+
+ul
+{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+li
+{
+list-style: none;
+}
+
+.hov-display
+{
+    visibility: hidden;
+}
+
+.hov-display:hover
+{
+    visibility: visible;
+}
+
+.project
+{
+    justify-content:space;
+}
